@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Resume Builder</title>
+    <link rel="stylesheet" href="styles.css">
+
+<style>
+    
+
+body {
+  font-family:'Times New Roman', Times, serif;
+  background-color:  #e0e1dd;
+  
+  margin: 0;
+  padding: 5%;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.header img {
+  
+  width: 100px;
+  height: 100px;
+  background-color: #ccc;
+  border-radius: 50%;
+  margin-right: 20px;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #333;
+}
+
+button{
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  color: white;
+  border-radius: 10px;
+  margin-top: 10px;
+  font-size: 17px;
+  background-color: #007bff;
+
+}
+button:hover {
+  background-color: blue;
+}
+
+
+.header h1 {
+  margin: 0;
+  font-size: 2rem;
+  margin-right: 20px; /* Space between name and vertical line */
+padding-bottom: 7%;
+padding-top: 8%;
+flex: 1;
+  text-align: left;
+  padding-left: 4%;
+  font-size: 2em;
+  color: #333;
+
+
+}
+
+.vertical-line{
+  width: 5px;
+  height: 100%;
+  background-color: #007bff;
+  margin-right: 20px;
+}
+
+h3 {
+  color: #007bff;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+  margin-top: 20px;
+}
+p{
+  font-family: 'Times New Roman', Times, serif;
+}
+</style>
+</head>
+<body>
+    <div class="container">
+
+    <div class="header">
+        <img src="image/wall7.jpg" alt="Profile Picture">
+
+        <h1>
+            MAIMOONA ZEHRA
+        </h1>
+        
+        <div class="vertical-line"></div>    
+    </div>
+    <hr>
+    
+    
+    <div>
+        <h3>PERSONAL INFORMATION</h3>
+        <p>
+            Phone:0123456789
+        </p>
+        <p>Email:maimoonazehra47@gmail.com</p>
+        <p>LinkedIn:Maimoona Zehra</p>
+        <h3>EDUCATION</h3>
+        <ul>
+            <li>Bachelors </li>
+            <li>Intermediate </li>
+            <li>Matriculation </li>
+        </ul>
+        <h3>EXPERIENCE</h3>
+        <p>No experience</p>
+    </div>
+    <div id="skillss">
+        <h3>SKILLS</h3>
+        <ul>
+            <li>PYTHON </li>
+            <li>TYPESCRIPT </li>
+            <li>HTML </li>
+            <li>CSS</li>
+        </ul>
+    </div>
+    <div>
+        <button id="butt">Hide//Show </button>
+    </div>
+
+</div>
+
+</body>
+<script src="script.js"></script>
+</html>
